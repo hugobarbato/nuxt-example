@@ -1,27 +1,6 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">nuxt-example</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+    <h1>HOME</h1>
   </div>
 </template>
 
@@ -34,7 +13,7 @@ export default Vue.extend({})
 <style>
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
